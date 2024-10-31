@@ -1,6 +1,6 @@
 .chatList {
     flex: 1;
-    /* overflow: scroll; */
+    overflow: scroll;
     .search {
         display: flex;
         align-items: center;
@@ -69,4 +69,15 @@
             }
         }
     }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
 }
