@@ -1,13 +1,14 @@
 import { auth } from '../../lib/firebase'
 import './detail.css'
-
+import { useChatStore } from "../../lib/chatStore"
 const Detail = () => {
+    const { chatId, user} = useChatStore() 
     return (
         <div className="detail">
             <div className="user">
                 <img src="./avatar.png" alt="" />
-                <h2>Jane Doe</h2>
-                <p>Haha</p>
+                <h2>{user?.username}</h2>
+                <p>Nhan vien cua nam</p>
             </div>
             <div className="info">
                 <div className="option">
