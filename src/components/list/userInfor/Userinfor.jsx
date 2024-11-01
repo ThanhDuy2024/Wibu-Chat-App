@@ -5,7 +5,7 @@ const Userinfor = () => {
     return (
         <div className="userInfor">
             <div className="user">
-                <img src="./firefly.png" alt="" />
+                <img src="./avatar.png" alt="" />
                 <h2>{currentUser.username}</h2>
             </div>
             <div className="icons">

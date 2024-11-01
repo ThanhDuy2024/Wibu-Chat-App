@@ -74,7 +74,7 @@ const Login = () => {
                 <h2>Tạo tài khoản</h2>
                 <form onSubmit={handleRegister}>
                     <label htmlFor="file">
-                        <img src={avatar.url || "./avatar.png"} alt="" />
+                        <img src="./avatar.png" alt="" />
                         Chọn một ảnh</label>
                     <input type="file" name="" id="file" style={{display: "none"}} onChange={handleAvatar}/>
                     <input type="text" name="Username" placeholder='Nhập tên...'/>

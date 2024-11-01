@@ -82,8 +82,8 @@ const AddUser = () => {
             { user && (
                 <div className="user">
                     <div className="detail">
-                        <img src="./firefly.png" alt="" />
-                        <span>Duya</span>
+                        <img src="./avatar.png" alt="" />
+                        <span>{user.username}</span>
                     </div>
                     <button onClick={handleAdd}>Thêm người dùng</button>
                 </div>

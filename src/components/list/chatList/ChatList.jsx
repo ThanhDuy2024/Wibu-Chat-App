@@ -74,7 +74,7 @@ const ChatList = () => {
                         backgroundColor: chat?.isSeen ? "transparent" : "#5183fe",
                     }}
                 >
-                    <img src={ chat.user.username == "Firefly" ? "./firefly.png" : "./avatar.png"} alt="" />
+                    <img src= "./avatar.png" alt="" />
                     <div className="texts">
                         <span>{chat.user.username}</span>
                         <p>{chat.lastMessage}</p>
